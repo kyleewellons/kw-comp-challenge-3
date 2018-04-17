@@ -5,7 +5,7 @@
 }
 
 a {
-  font-size: .5em;
+  font-size: 1em;
   color: #fff;
   display: inline-block;
   text-decoration: none;
@@ -113,29 +113,35 @@ button {
   background-color: #ebf1f4;
   box-sizing: border-box;
   float: left;
-  padding: 2em;
+  /*padding: 2em;*/
   height: 50em;
-  width: 80%;
+  width: 85%;
 }
 
 .main-content-container {
   display:flex;
   justify-content: space-between;
   height: 30%;
-  width: 100%;
 }
 
 .donut-container {
+  flex-direction: column;
+  justify-content: space-between;
   box-sizing: border-box;
   border: solid;
   display: flex;
+  height: 100%;
   width: 55%;
-  height: 40%;
+}
+
+.donut-container section {
+  display: flex;
+
 }
 
 .donut {
   height: 100%;
-  width: 100% ;
+  width:30% ;
 }
 
 .donut-ring {
@@ -145,17 +151,6 @@ button {
   fill: transparent;
   stroke:#d2d3d4;
   stroke-width:3;
-}
-
-.donut-segment {
-    cx: 21;
-    cy: 21;
-    r: 15.9155;
-    fill: transparent;
-    stroke: rgb(206, 75, 153);
-    stroke-width: 3;
-    stroke-dasharray: 85, 15;
-    stroke-dashoffset: 0;
 }
 
 .donut-hole {
@@ -169,37 +164,32 @@ button {
     stroke-dashoffset: 0;
 }
 
-.donut-button {
-
-}
-
 .graph-container {
+  align-items: center;
   border: solid;
   box-sizing: border-box;
-  background-image: url('Images/graph.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   width:40%;
-  height: 40%;
 }
 
+.graph-container img {
+ width: 100%;
+ margin: 0;
+
+}
+
+.graph-container-button {
+  height: 10% ;
+
+}
 .bottom-half {
   border: solid;
   box-sizing: border-box;
-  width: 80%;
   height: 60%;
 }
- .job-description {
-  height: 60%;
-  width: 100%;
-  background-color: #fff;
- }
-
- .job-description-header {
-  background-color: #000;
-  width: 80%;
-  height: 20px;
- }
 
 
 p {
