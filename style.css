@@ -22,7 +22,7 @@ a {
   background-color:#465266;
   color: #fff;
   float: left;
-  height: 100vh;
+  height: 100em;
   width: 15%;
 }
 
@@ -52,13 +52,13 @@ a {
   border-bottom: solid 0.53 #efefef;
   display: flex;
   flex-wrap: wrap;
-  height: 100px;
+  height: 50px;
 }
 
 .search-input {
   border: none;
-  /*font-size: 1em;?*/
-  height:90px;
+  /*font-size: 1em;*/
+  height:30px;
   margin-left: 10%;
   width: 55%;
 }
@@ -111,34 +111,31 @@ button {
 
 .main-body {
   background-color: #ebf1f4;
+  box-sizing: border-box;
   float: left;
-  height: 900px;
+  padding: 2em;
+  height: 50em;
+  width: 80%;
+}
+
+.main-content-container {
+  display:flex;
+  justify-content: space-between;
+  height: 30%;
   width: 100%;
 }
 
-p {
-  display: inline-block;
-}
-
-svg {
-
-}
-
 .donut-container {
-  width: 20%;
-  display: inline-block;
+  box-sizing: border-box;
+  border: solid;
+  display: flex;
+  width: 55%;
+  height: 40%;
 }
 
-/*.donut-hole
-.donut-ring {
-  cx: 21;
-  cy: 21;
-  r: 15.9155;
-  fill: transparent;
-}*/
 .donut {
   height: 100%;
-  width:100% ;
+  width: 100% ;
 }
 
 .donut-ring {
@@ -148,6 +145,17 @@ svg {
   fill: transparent;
   stroke:#d2d3d4;
   stroke-width:3;
+}
+
+.donut-segment {
+    cx: 21;
+    cy: 21;
+    r: 15.9155;
+    fill: transparent;
+    stroke: rgb(206, 75, 153);
+    stroke-width: 3;
+    stroke-dasharray: 85, 15;
+    stroke-dashoffset: 0;
 }
 
 .donut-hole {
@@ -161,12 +169,56 @@ svg {
     stroke-dashoffset: 0;
 }
 
-.graph-img {
-  display:inline-block;
-  height: 10%;
-  width: 10%;
+.donut-button {
+
 }
 
+.graph-container {
+  border: solid;
+  box-sizing: border-box;
+  background-image: url('Images/graph.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width:40%;
+  height: 40%;
+}
+
+.bottom-half {
+  border: solid;
+  box-sizing: border-box;
+  width: 80%;
+  height: 60%;
+}
+ .job-description {
+  height: 60%;
+  width: 100%;
+  background-color: #fff;
+ }
+
+ .job-description-header {
+  background-color: #000;
+  width: 80%;
+  height: 20px;
+ }
+
+
+p {
+  display: inline-block;
+}
+
+/*.donut-hole
+.donut-ring {
+  cx: 21;
+  cy: 21;
+  r: 15.9155;
+  fill: transparent;
+}*/
+/**/
+/*.graph-img {
+  height: 20%;
+  width: 20%;
+}
+*/
 
 
 
