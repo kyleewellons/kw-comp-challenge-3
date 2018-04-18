@@ -12,10 +12,11 @@ a {
 }
 
 .content-container {
+  border: solid;
   background-color: #ffff;
   height: auto;
   margin: auto 11px;
-  width: 800px;
+  width: 100em;
 }
 
 .sidebar-menu {
@@ -28,6 +29,7 @@ a {
 
 .profile-pic-container {
   text-align: center;
+  /*border:solid #ff0099;*/
 }
 
 .sidebar-icons {
@@ -49,10 +51,9 @@ a {
 
 .search-header {
   background-color: #fff;
-  border-bottom: solid 0.53 #efefef;
+  border-bottom: solid 0.5px #efefef;
   display: flex;
   flex-wrap: wrap;
-  height: 50px;
 }
 
 .search-input {
@@ -77,37 +78,62 @@ img {
   margin: 20%;
   width:40%;
 } 
-/*
-nav {
-  color: #828D99;
+
+.nav-container {
+  /*border: yellow;*/
+  /*color: #828D99;*/
   height: 20vh;
-  margin:  0 0;
+  margin:  5% 0;
   width: 100%;
 }
-*/
 
-.nav-buttons {
+/*.nav-info*/
 
+.nav-menu {
+  /*background-color: yellow;*/
+  /*border: solid;*/
+  width: 100%;
 }
 
-/*.nav-info {
-  text-align:;
-  margin: % 20% 10%;
-  height: 40px;
+.nav-buttons {
+height: 5px;
+width: 5px;
+}
+
+.share-btn {
+  width:;
+  border-radius: 30%;
+}
+
+.nav-info {
+  color: grey;
+  /*text-align:;*/
+  margin: 0 2% 2% 0%;
   width: 80%;
-}*/
+}
 .nav-links {
+  /*border: blue dashed;*/
   color: grey;
   display:inline-block;
   margin: 5% 0 0 5%;
   text-decoration: none;
 }
 
-button {
-  float: right;
-  margin: 0 5% 0 5%;
-  background-image: url('Images/menu-buttin-of-three-lines.svg');
+.preview-link {
+  color: blue;
 }
+
+.nav-btn-container {
+  float: right;
+
+}
+
+.share-btn {
+  /*float: right;*/
+  /*margin: 0 5% 0 5%;*/
+ 
+}
+
 
 .main-body {
   background-color: #ebf1f4;
@@ -119,6 +145,7 @@ button {
 }
 
 .main-content-container {
+  /*border: dotted;*/
   display:flex;
   justify-content: space-between;
   height: 30%;
@@ -128,7 +155,7 @@ button {
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
-  border: solid;
+  /*border: solid;*/
   display: flex;
   height: 100%;
   width: 55%;
@@ -166,7 +193,7 @@ button {
 
 .graph-container {
   align-items: center;
-  border: solid;
+  /*border: solid;*/
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -186,7 +213,7 @@ button {
 
 }
 .bottom-half {
-  border: solid;
+  /*border: solid;*/
   box-sizing: border-box;
   height: 60%;
 }
