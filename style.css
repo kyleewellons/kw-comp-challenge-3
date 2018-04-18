@@ -29,7 +29,6 @@ a {
 
 .profile-pic-container {
   text-align: center;
-  /*border:solid #ff0099;*/
 }
 
 .sidebar-icons {
@@ -40,7 +39,7 @@ a {
 .icon-container {
   border: solid .1vh #efefef;
   text-align: center;
-  width: 9.6% ;
+  width: 8.6% ;
 }
 
 .calander-icon {
@@ -58,7 +57,6 @@ a {
 
 .search-input {
   border: none;
-  /*font-size: 1em;*/
   height:30px;
   margin-left: 10%;
   width: 55%;
@@ -80,18 +78,14 @@ img {
 } 
 
 .nav-container {
-  /*border: yellow;*/
-  /*color: #828D99;*/
   height: 20vh;
   margin:  5% 0;
   width: 100%;
 }
 
-/*.nav-info*/
+
 
 .nav-menu {
-  /*background-color: yellow;*/
-  /*border: solid;*/
   width: 100%;
 }
 
@@ -106,13 +100,12 @@ width: 5px;
 }
 
 .nav-info {
+  border: solid;
   color: grey;
-  /*text-align:;*/
-  margin: 0 2% 2% 0%;
+  margin: 0 2% 2% 19%;
   width: 80%;
 }
 .nav-links {
-  /*border: blue dashed;*/
   color: grey;
   display:inline-block;
   margin: 5% 0 0 5%;
@@ -129,8 +122,6 @@ width: 5px;
 }
 
 .share-btn {
-  /*float: right;*/
-  /*margin: 0 5% 0 5%;*/
  
 }
 
@@ -139,13 +130,11 @@ width: 5px;
   background-color: #ebf1f4;
   box-sizing: border-box;
   float: left;
-  /*padding: 2em;*/
   height: 50em;
   width: 85%;
 }
 
 .main-content-container {
-  /*border: dotted;*/
   display:flex;
   justify-content: space-between;
   height: 30%;
@@ -155,7 +144,6 @@ width: 5px;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
-  /*border: solid;*/
   display: flex;
   height: 100%;
   width: 55%;
@@ -164,11 +152,12 @@ width: 5px;
 .donut-container section {
   display: flex;
 
+
 }
 
 .donut {
   height: 100%;
-  width:30% ;
+  width: 30% ;
 }
 
 .donut-ring {
@@ -178,6 +167,18 @@ width: 5px;
   fill: transparent;
   stroke:#d2d3d4;
   stroke-width:3;
+}
+
+.donut-segment {
+  cx: 21;
+  cy: 21;  
+  r: 15.91549430918954; 
+  fill: transparent; 
+  stroke: #ce4b99; 
+  stroke-width: 3;
+  stroke-dasharray:85 15; 
+  stroke-dashoffset: 0;
+
 }
 
 .donut-hole {
@@ -210,6 +211,8 @@ width: 5px;
 
 .graph-container-button {
   height: 10% ;
+  width: 20%;
+  border-radius: 12px;
 
 }
 .bottom-half {
